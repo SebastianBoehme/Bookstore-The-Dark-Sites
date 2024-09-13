@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-image: url(./assets/img/nightsky.jpg);
+    color: white;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-image: url(./assets/img/nightsky.jpg);
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  nav {
+    background-color: rgb(17, 17, 17);
+    height: 64px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav_links {
+    text-align: center;
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(82, 21, 140);
+    cursor: pointer;
+    filter: brightness(1.75);
+  }
+
+  .content {
+    padding: 16px;
+  }
